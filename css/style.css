@@ -35,7 +35,7 @@ button:hover {
     position: sticky;
     top: 0%;
     background-color: #222327;
-    height: 13vh;
+    height: 10vh;
     color: white;
     z-index: 1;
     box-shadow: 0 0 5px 0px white;
@@ -935,26 +935,26 @@ footer h5 {
     }
 
     .card-section {
-        display: flex;
+        display: block;
         transition: all .5s ease;
     }
 
     /* Ends photo Section  */
     /* Start Story Section  */
     .row {
-
+        display: block;
         width: 100%;
         transition: all .5s ease;
     }
 
     .onu {
-
+        display: block;
         width: 100%;
         transition: all .5s ease;
     }
 
     .golpo {
-
+        display: block;
         width: 100%;
         transition: all .5s ease;
     }
@@ -1074,8 +1074,8 @@ footer h5 {
         width: 100%;
         background-image: url(../image/img.JPG);
         background-size: cover;
-        background-position: center;
-        padding: 1% 2%;
+        background-position:center;
+        padding: 1% 5%;
         transition: all .50s ease;
 
     }
@@ -1160,7 +1160,9 @@ footer h5 {
     }
 
     .card-section {
-        display: inline-block;
+        width: 100%;
+        display:block;
+        height: auto;
         transition: all .5s ease;
     }
 
@@ -1168,19 +1170,21 @@ footer h5 {
     /* Start Story Section  */
 
     .row {
-
+        text-align: center;
+        display: block;
         width: 100%;
         transition: all .5s ease;
+    
     }
 
     .onu {
-
+        display: block;
         width: 100%;
         transition: all .5s ease;
     }
 
     .golpo {
-
+        display: block;
         width: 100%;
         transition: all .5s ease;
     }
