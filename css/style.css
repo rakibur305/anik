@@ -808,7 +808,7 @@ footer h5 {
 /* For Monile  */
 
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     #menu-icon {
         display: block;
     }
