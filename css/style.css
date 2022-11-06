@@ -977,7 +977,7 @@ footer h5 {
 /* For Monile  */
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     #menu-icon {
         display: block;
     }
